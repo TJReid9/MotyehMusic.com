@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 import MusicPlayer from '@/components/MusicPlayer';
 import TrackList from '@/components/TrackList';
 
@@ -58,21 +57,25 @@ export default function Home() {
     <main className="min-h-screen relative">
       {/* Music Note Nebula Background */}
       <div className="butterfly-nebula-bg"></div>
-      
-      {/* Banner */}
-      <div className="relative w-full h-[180px] md:h-[240px] pt-0 pb-2 z-30 bg-transparent overflow-hidden">
-        <Image 
-          src="/images/SpeakerNebulaLogo.png"
-          alt="Motyeh Banner"
-          width={1600}
-          height={400}
-          className="w-full h-full object-cover"
-          priority
-        />
-      </div>
 
       {/* Content */}
       <div className="content-overlay">
+        {/* Header Section */}
+        <section className="pt-20 pb-12 px-4 md:px-8 relative text-center">
+          <div className="absolute inset-0 bg-black/40"></div>
+          <div className="relative z-10 max-w-6xl mx-auto">
+            <h1 className="text-7xl md:text-9xl font-bold mb-4 platinum-text">MOTYEH</h1>
+            <p className="text-2xl md:text-3xl font-semibold tracking-wider" style={{
+              color: '#a855f7',
+              WebkitTextStroke: '2px rgba(0,0,0,0.9)',
+              textStroke: '2px rgba(0,0,0,0.9)',
+              textShadow: '-2px -2px 0 rgba(0,0,0,0.9), 2px -2px 0 rgba(0,0,0,0.9), -2px 2px 0 rgba(0,0,0,0.9), 2px 2px 0 rgba(0,0,0,0.9), 0 0 8px rgba(0,0,0,0.7)'
+            }}>
+              Audio Production and Sound Design
+            </p>
+          </div>
+        </section>
+
         {/* Music Section */}
         <section className="py-20 px-4 md:px-8 relative">
           <div className="absolute inset-0 bg-black/30"></div>
