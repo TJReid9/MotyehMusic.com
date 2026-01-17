@@ -46,6 +46,14 @@ const tracks: Track[] = [
     audioUrl: '/audio/Loosy Strut.mp3',
     coverArt: '/images/Motyeh Butterfly Nebula.png',
   },
+  {
+    id: '5',
+    title: 'Arbiter Blue',
+    artist: 'Motyeh',
+    duration: '7:01',
+    audioUrl: '/audio/Arbiter Blue.mp3',
+    coverArt: '/images/Motyeh Butterfly Nebula.png',
+  },
 ];
 
 export default function Home() {
