@@ -84,10 +84,9 @@ export default function Home() {
             <p className="text-2xl md:text-3xl font-semibold tracking-wider" style={{
               color: '#a855f7',
               WebkitTextStroke: '2px rgba(0,0,0,0.9)',
-              textStroke: '2px rgba(0,0,0,0.9)',
               textShadow: '-2px -2px 0 rgba(0,0,0,0.9), 2px -2px 0 rgba(0,0,0,0.9), -2px 2px 0 rgba(0,0,0,0.9), 2px 2px 0 rgba(0,0,0,0.9), 0 0 8px rgba(0,0,0,0.7)'
             }}>
-              Audio Production and Sound Design
+              Audio Production & Sound Design
             </p>
           </div>
         </section>
